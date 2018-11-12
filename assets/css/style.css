@@ -3,6 +3,9 @@
 * {
 	font-family: 'Roboto', sans-serif !important;
 }
+body{
+	overflow: hidden;
+}
 .container-fluid{
 	padding: 0;
 }
@@ -11,7 +14,14 @@
 }
 
 /* REUSABLE */
-
+.divider{
+	width: 100%;
+	height: .5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border-color: #ccc;
+	background-color: #ccc;
+}
 /* --------------------------------- */
 /* Main Content -------Starts */
 /* --------------------------------- */
@@ -46,6 +56,24 @@
 	font-size: 1.5rem;
 	margin-right: 1rem;
 }
+/* Section: Event list */
+.event__list{
+	background-color: #ddd;
+}
+.event__list p{
+	margin-bottom: 0;
+}
+.event__image img{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.event__title{
+	font-size: 2rem;
+}
+
+
+
 /* --------------------------------- */
 /* Main Content -------Ends */
 /* --------------------------------- 
