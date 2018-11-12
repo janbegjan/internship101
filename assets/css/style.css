@@ -3,5 +3,31 @@
 * {
 	font-family: 'Roboto', sans-serif !important;
 }
+.container-fluid{
+	padding: 0;
+}
+.row {
+	margin-right: 0;
+}
 
 /* REUSABLE */
+
+/* --------------------------------- */
+/* Main Content -------Starts */
+/* --------------------------------- */
+/* Navigation */
+.navbar-logo{
+	margin-right: 1.2rem;
+}
+.navbar-brand{
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 1.2rem;
+	color: rgba(0,0,0,.6);
+}
+
+/* --------------------------------- */
+/* Main Content -------Ends */
+/* --------------------------------- 
