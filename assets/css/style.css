@@ -27,7 +27,20 @@
 	font-size: 1.2rem;
 	color: rgba(0,0,0,.6);
 }
-
+/* Section: Hero */
+.hero{
+	background: #ddd url('/assets/imgs/img2.jpg') 0% 0%/cover no-repeat content-box border-box scroll;
+	position: relative;
+	height: 35rem;
+}
+.hero__title{
+	position: absolute;
+	bottom: 2.5rem;
+	left:42%;
+}
+.hero__title h1{
+	font-size: 4rem;
+}
 /* --------------------------------- */
 /* Main Content -------Ends */
 /* --------------------------------- 
