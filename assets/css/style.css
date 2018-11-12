@@ -3,11 +3,9 @@
 * {
 	font-family: 'Roboto', sans-serif !important;
 }
-body{
-	overflow: hidden;
-}
 .container-fluid{
 	padding: 0;
+	overflow: hidden;
 }
 .row {
 	margin-right: 0;
@@ -35,7 +33,6 @@ body{
 }
 .navbar-light .navbar-nav .nav-link {
 	font-size: 1.2rem;
-	color: rgba(0,0,0,.6);
 }
 /* Section: Hero */
 .hero{
@@ -46,7 +43,7 @@ body{
 .hero__title{
 	position: absolute;
 	bottom: 2.5rem;
-	left:42%;
+	left:33%;
 }
 .hero__title h1{
 	font-size: 4rem;
@@ -71,9 +68,16 @@ body{
 .event__title{
 	font-size: 2rem;
 }
+/* Section: Footer */
 
+.footer__menu .nav-link {
+	padding: 0;
+}
 
-
+.newsletter__form{
+	width: 90%;
+	background-color: #ddd;
+}
 /* --------------------------------- */
 /* Main Content -------Ends */
 /* --------------------------------- 
