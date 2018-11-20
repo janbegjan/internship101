@@ -23,11 +23,7 @@
 	border-color: #ccc;
 	background-color: #ccc;
 }
-.social-icons .nav-link:hover,
-.social-icons .nav-link:active {
-	color: #AB00D8;
-font-size: 1.3rem;
-}
+
 /* --------------------------------- */
 /* Main Content -------Starts */
 /* --------------------------------- */
@@ -89,13 +85,13 @@ font-size: 1.3rem;
 
 
 /* --------------------------------- */
-/* Page: Event Single -------Starts */
+/* Page: Event  -------Starts */
 /* --------------------------------- */
 /* --------------------------------- */
 .event.hero{
 	background: #ddd url('/assets/imgs/img2.jpg') 0% 0%/cover no-repeat content-box border-box scroll;
 }
-/* Page: Event Single -------Ends */
+/* Page: Event -------Ends */
 /* --------------------------------- */
 /* --------------------------------- */
 /* Page: Event Single -------Starts */
@@ -103,12 +99,35 @@ font-size: 1.3rem;
 .event__single.hero{
 	background: #ddd url('/assets/imgs/img1.jpg') 0% 0%/cover no-repeat content-box border-box scroll;
 }
-.hero  .hero__bc2{
+.hero  .hero__tc{
 	position: absolute;
-	bottom: 3%;
-	left:45%;
+	top: 20%;
+	left:40%;
 }
+.c2a{
+	background-color: #ddd;
+}
+.c2a__social li{
+	border-radius: 50%;
+	margin: 0.7rem;
+	padding: 0.7rem;
+	background-color: #6c757d;
+	border:1px solid #6c757d;
+	
+}
+.c2a__social li:hover{
+	background-color: #5a6268;
+	border:1px solid #5a6268;
+}
+.c2a__social .nav-link{
+	padding: unset;
+	color: #fff;
+	font-size: 1.2rem;
+	
+}
+.event__desc{
 
+}
 /* --------------------------------- */
 /* Page: Event Single -------Ends */
 /* --------------------------------- */
