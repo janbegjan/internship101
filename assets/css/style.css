@@ -20,6 +20,11 @@
 	border-color: #ccc;
 	background-color: #ccc;
 }
+.social-icons .nav-link:hover,
+.social-icons .nav-link:active {
+	color: #AB00D8;
+font-size: 1.3rem;
+}
 /* --------------------------------- */
 /* Main Content -------Starts */
 /* --------------------------------- */
