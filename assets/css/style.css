@@ -150,6 +150,8 @@ a:visited{
 /* --------------------------------- */
 /* Page: Event Registration -------Starts */
 /* --------------------------------- */
+.hero__event-registration{font-size: 4rem;}
+.hero__event-title{font-size: 2.5rem;}
 .form-border{
 	padding: 1.2rem;
 	border: 1px solid #eaeaea;
