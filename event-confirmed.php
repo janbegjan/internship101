@@ -1,3 +1,8 @@
+<?php
+$name = $_POST["name"];
+$email = $_POST["email"];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -120,64 +125,42 @@
           </div>
         </div>
       </section>
-      <section class="event__reg mt-2">
+      <section class="event__reg-confirmed mt-2">
         <!-- Section: Event Registration -->
         <div class="event">
           <div class="row pt-5 pb-5">
-            <div class="col-md-7 offset-md-1">
-							<form action="event-confirmed.php" class="event_reg-form form-border" method="POST">
-								<h4 class="event__reg-summary mb-3">Summary</h4>
-								<h6 class="event__reg-rspv ml-5">RSVP to secure your spot</h6>
-								<div class="form-group form-inline ml-5">
-									<label for="quantity">Quantity:</label>
-									<select class="form-control ml-2" id="quantity">
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-										<option value="5">5</option>
-									</select>
-								</div>
-								<h4 class="event__reg-info mt-3 mb-3">Registration Information</h4>
-								<div class="reg__form1 ml-5">
-									<div class="form-group">
-										<input type="text" name="name" id="name" class="form-control" placeholder="Enter full name" required>
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email address" required>
-										<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" name="email_Confirm" id="email_Confirm" placeholder="Enter email again" required>
-									</div>
-									<div class="form-group">
-										<input type="text" name="psp_code" id="psp_code" class="form-control" placeholder="Enter PSP membership code for discount" required>
-									</div>
-									
-								<div class="form-group align-items-end mt-4">
-										<div class="form-check f80">
-												<label class="form-check-label">
-													<input type="checkbox" class="form-check-input" name="agree_policy" id="agree_policy" value="checkedValue" required>
-													I accept the terms of service and have read the privacy policy.
-												</label>
-												<label class="form-check-label">
-													<input type="checkbox" class="form-check-input" name="agree_info" id="agree_info" value="checkedValue" required>
-													I agree that Pantsuit Professionals may share my information with the event organizer.
-												</label>
-										</div>
-										<input type="submit" value="Complete Registration" class="btn btn-secondary btn-lg mt-3">
-								</div>
-								</div>
-							</form>
+            <div class="col-md-7 offset-md-1 form-border">
+							<p class="event__reg-thankyou h4">Thank you! You're going to XXXXXX(Event name)!</p>
+							<p class="event__reg-ticketMailed mt-5 h4">Your ticket has ben sent to <br><?php echo $email; ?></p>
+							<p class="event__reg-ticketShare mt-5 h4">Share with your friend</p>
+							<div class="event__reg-confirmed-share">
+									<nav class="navbar navbar-expand-lg">
+											<ul class="nav navbar-nav c2a__social ml-2">
+												<li class="nav-item">
+													<a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="#"><i class="fab fa-facebook-messenger"></i></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="#"><i class="fas fa-envelope"></i></a>
+												</li>
+											</ul>
+										</nav>
+							</div>	
 						</div>
             <div class="col-md-3">
 							<div class="form-border">
-								<h4 class="event__dateTime">Date</h4>
-								<p class="event__dateTime-p">24/12/2018,<span> 18:30</span></p>
-								<h4 class="event_location">Location</h4>
-								<p class="event__location-p">New York, USA</p>
-								<h4 class="event__refund">Refund Policy</h4>
-								<p class="event__refund-p">No return. No refund.</p>
+								<h4 class="new__subscriber-Name">Hi, <span><?php echo $name; ?></span></h4>
+								<h4 class="event__organizer mt-5">Organizer</h4>
+								<p class="event__organizer-name">XXXXXXXXXXXXXXXXX</p>
+
 							</div>
 						</div>
           </div>
