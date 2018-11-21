@@ -26,7 +26,14 @@
 .f80{
 	font-size: 80% !important;
 }
-
+a:link,
+a:hover,
+a:active,
+a:visited{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
 /* --------------------------------- */
 /* Main Content -------Starts */
 /* --------------------------------- */
